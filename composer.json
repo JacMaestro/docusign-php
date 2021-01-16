@@ -1,0 +1,17 @@
+{
+    "autoload": {
+        "psr-4": {"Example\\": "src/",
+                  "DocuSign\\OAuth2\\Client\\Provider\\": "src/"
+                },
+        "files" : [  "helper.php"]
+    },
+    "require": {
+        "docusign/esign-client": "^5.1.0",
+        "docusign/rooms-client": "^1.0.0",
+        "league/oauth2-client": "^2.4",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^6.5",
+        "firebase/php-jwt": "^5.0",
+        "mashape/unirest-php": "^3.0"
+    }
+}

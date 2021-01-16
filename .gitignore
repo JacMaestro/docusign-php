@@ -1,0 +1,10 @@
+# ignore Composer downloads
+/vendor/*
+
+# keep some hiddens
+!.htaccess
+!/.gitignore
+!/.travis.yml
+
+# do not check in secrets
+ds_config.php
